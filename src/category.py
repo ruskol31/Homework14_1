@@ -8,6 +8,13 @@ class Category:
     def __init__(self, name, description, products):
         self.name = name
         self.description = description
-        self.products = products
+        self.__products = products
         Category.category_count += 1
         Category.product_count += len(products) if products else 0
+
+    @property
+    def products(self):
+        products_str = ""
+        for product in products:
+            products_str += f"{product.name}, {product.price} руб. Остаток: {product.quantity} шт.\n"
+            return products_str
