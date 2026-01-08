@@ -10,6 +10,9 @@ class Product:
         self.__price = price
         self.quantity = quantity
 
+    def __str__(self):
+        return f"Название продукта {self.name}, {self.__price} руб. Остаток: {self.quantity} шт."
+
     @classmethod
     def new_product(cls, product_data: dict):
         """класс-метод принимет на вход параметры товара в словаре
