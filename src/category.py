@@ -12,6 +12,9 @@ class Category:
         Category.category_count += 1
         Category.product_count += len(self.__products) if products else 0
 
+    def __str__(self):
+        return f"{}"
+
     @property
     def products(self):
         products_str = ""
