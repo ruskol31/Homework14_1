@@ -3,15 +3,20 @@ class Product:
     description: str
     price: float
     quantity: int
+    inventory: int
 
-    def __init__(self, name, description, price, quantity):
+    def __init__(self, name, description, price, quantity, inventory=0):
         self.name = name
         self.description = description
         self.__price = price
         self.quantity = quantity
+        self.inventory = price*quantity
 
     def __str__(self):
         return f"Название продукта {self.name}, {self.__price} руб. Остаток: {self.quantity} шт."
+
+    def __add__(self, other):
+        return self.inventory + other.inventory
 
     @classmethod
     def new_product(cls, product_data: dict):

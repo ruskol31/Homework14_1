@@ -32,3 +32,19 @@ def test_price_setter_valid():
 
     product.price = 200.0
     assert product.price == 200.0
+
+
+def test_product_str_and_add_basic():
+    """Базовый тест методов __str__ и __add__"""
+
+    # Создаем тестовые продукты
+    product1 = Product("Яблоки", "Свежие яблоки", 50.0, 10)  # инвентарь: 500
+    product2 = Product("Бананы", "Спелые бананы", 30.0, 15)  # инвентарь: 450
+
+    # Тест __str__
+    assert str(product1) == "Название продукта Яблоки, 50.0 руб. Остаток: 10 шт."
+    assert str(product2) == "Название продукта Бананы, 30.0 руб. Остаток: 15 шт."
+
+    # Тест __add__
+    total = product1 + product2
+    assert total == 950.0  # 500 + 450

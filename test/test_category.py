@@ -15,7 +15,7 @@ def test_category_initialization_with_products(category_with_products, sample_pr
         assert str(product.quantity) in category.products
     lines = category.products.strip().split('\n')
     assert len(lines) == 3
-
+    assert str(category_with_products) == "Название категории Electronics, количество продуктов: 3 шт."
 
 def test_add_product_basic():
     """Базовый тест add_product"""
@@ -31,3 +31,4 @@ def test_add_product_basic():
 
     result = category.products
     assert "New, 50.0 руб. Остаток: 10 шт." in result
+

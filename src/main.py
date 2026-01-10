@@ -17,3 +17,4 @@ if __name__ == "__main__":
 
 print(category1)
 print(product1)
+print(product1 + product2)
