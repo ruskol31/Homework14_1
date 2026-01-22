@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c5bac5b2-05cc-47d3-bac1-6f8472a996e2" name="Changes" comment="magik methods 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c5bac5b2-05cc-47d3-bac1-6f8472a996e2" name="Changes" comment="start commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +109,12 @@
       </list>
     </recent_temporary>
   </component>
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
