@@ -14,3 +14,7 @@ if __name__ == "__main__":
                          [product1, product2, product3])
     category2 = Category("Телевизоры", "Современный телевизор, который позволяет наслаждаться просмотром, станет "
                                        "вашим другом и помощником", [product4])
+
+print(category1)
+print(product1)
+print(product1 + product2)
