@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5bac5b2-05cc-47d3-bac1-6f8472a996e2" name="Changes" comment="super">
-      <change afterPath="$PROJECT_DIR$/src/smartphone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_lawngrass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_smartphone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Smartphone.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lawngrass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/conftest.py" afterDir="false" />
-    </list>
+    <list default="true" id="c5bac5b2-05cc-47d3-bac1-6f8472a996e2" name="Changes" comment="super" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,21 +39,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python tests.Python tests for test_smartphone.test_add_different_class_products.executor": "Run",
-    "Python tests.Python tests for test_smartphone.test_add_same_class_products.executor": "Run",
-    "Python tests.Python tests in test_category.py.executor": "Run",
-    "Python tests.Python tests in test_product.py.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Homework__16__1",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_smartphone.test_add_different_class_products.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_smartphone.test_add_same_class_products.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_smartphone.test_smartphone_init.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_category.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_product.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Homework__16__1&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_smartphone.test_add_different_class_products">
+}</component>
+  <component name="RunManager" selected="Python tests.Python tests for test_lawngrass.test_lawngrass_init">
+    <configuration name="Python tests for test_lawngrass.test_lawngrass_init" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Homework_14_1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_lawngrass.test_lawngrass_init&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_lawngrass.test_smartphone_init" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Homework_14_1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_lawngrass.test_smartphone_init&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_smartphone.test_add_different_class_products" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Homework_14_1" />
       <option name="ENV_FILES" value="" />
@@ -94,8 +115,26 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_smartphone.test_smartphone_init" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Homework_14_1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_smartphone.test_smartphone_init&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_lawngrass.test_lawngrass_init" />
+        <item itemvalue="Python tests.Python tests for test_lawngrass.test_smartphone_init" />
+        <item itemvalue="Python tests.Python tests for test_smartphone.test_smartphone_init" />
         <item itemvalue="Python tests.Python tests for test_smartphone.test_add_different_class_products" />
         <item itemvalue="Python tests.Python tests for test_smartphone.test_add_same_class_products" />
       </list>
@@ -133,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769091415474</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="super">
+      <option name="closed" value="true" />
+      <created>1769263172525</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1769263172525</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
