@@ -1,3 +1,6 @@
+from src.product import Product
+
+
 class Category:
     name: str
     description: str
@@ -24,6 +27,12 @@ class Category:
 
     def add_product(self, product):
         """Метод для добавления продукта в категорию"""
+        if not isinstance(product, Product):
+            raise TypeError(
+                f"Можно добавлять только объекты типа Product или его наследников. "
+                f"Получен: {type(product).__name__}"
+            )
+
         if self.__products is None:
             self.__products = []
 
