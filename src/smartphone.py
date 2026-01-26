@@ -2,7 +2,8 @@ from src.product import Product
 
 
 class Smartphone(Product):
-    def __init__(self, name, description, price, quantity, efficiency, model, memory, color, inventory=0):
+    def __init__(self, name, description, price, quantity,
+                 efficiency, model, memory, color, inventory=0):
         super().__init__(name, description, price, quantity, inventory)
         self.efficiency = efficiency
         self.model = model

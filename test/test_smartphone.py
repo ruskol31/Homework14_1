@@ -1,13 +1,8 @@
-import pytest
-
-from src.lawngrass import LawnGrass
-from src.smartphone import Smartphone
 
 
 def test_smartphone_init(sample_smartphone_1):
     assert sample_smartphone_1.name == "iPhone"
     assert sample_smartphone_1.efficiency == "Высокая"
-
 
 
 def test_add_same_class_products(sample_smartphone_1, sample_smartphone_2):

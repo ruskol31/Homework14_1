@@ -13,12 +13,14 @@ class Product:
         self.inventory = price * quantity
 
     def __str__(self):
-        return f"Название продукта {self.name}, {self.__price} руб. Остаток: {self.quantity} шт."
+        return (f"Название продукта {self.name}, {self.__price} руб. "
+                f"Остаток: {self.quantity} шт.")
 
     def __add__(self, other):
         if type(self) is type(other):
             return self.inventory + other.inventory
-        raise TypeError(f"Нельзя складывать {type(self).__name__} с {type(other).__name__}")
+        raise TypeError(f"Нельзя складывать {type(self).__name__} "
+                        f"с {type(other).__name__}")
 
     @classmethod
     def new_product(cls, product_data: dict):

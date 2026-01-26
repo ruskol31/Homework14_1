@@ -16,7 +16,8 @@ class Category:
         Category.product_count += len(self.__products) if products else 0
 
     def __str__(self):
-        return f"Название категории {self.name}, количество продуктов: {Category.product_count} шт."
+        return (f"Название категории {self.name}, "
+                f"количество продуктов: {Category.product_count} шт.")
 
     @property
     def products(self):
@@ -29,7 +30,7 @@ class Category:
         """Метод для добавления продукта в категорию"""
         if not isinstance(product, Product):
             raise TypeError(
-                f"Можно добавлять только объекты типа Product или его наследников. "
+                f"Можно добавлять только объекты типа Product или наследников."
                 f"Получен: {type(product).__name__}"
             )
 
@@ -38,5 +39,3 @@ class Category:
 
         self.__products.append(product)
         Category.product_count += 1
-
-
