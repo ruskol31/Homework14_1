@@ -4,6 +4,8 @@ import pytest
 
 from src.category import Category
 from src.product import Product
+from src.smartphone import Smartphone
+from src.lawngrass import LawnGrass
 
 
 @pytest.fixture
@@ -26,3 +28,35 @@ def sample_products() -> List[Product]:
 def category_with_products(sample_products) -> Category:
     """Фикстура для создания категории с продуктами"""
     return Category("Electronics", "Electronic devices", sample_products)
+
+
+@pytest.fixture
+def sample_smartphone_1():
+    return Smartphone(
+        "iPhone", "Смартфон Apple", 80000.0, 5,
+        "Высокая", "15 Pro", 256, "Black"
+    )
+
+
+@pytest.fixture
+def sample_smartphone_2():
+    return Smartphone(
+        "Samsung", "Смартфон Samsung", 60000.0, 3,
+        "Средняя", "Galaxy S23", 128, "White"
+    )
+
+
+@pytest.fixture
+def grass_1():
+    return LawnGrass(
+        "Универсальная", "Трава для газона", 500.0, 10,
+        "Россия", "14 дней", "Зеленый"
+    )
+
+
+@pytest.fixture
+def grass_2():
+    return LawnGrass(
+        "Элитная", "Трава премиум класса", 800.0, 5,
+        "Германия", "10 дней", "Изумрудный"
+    )
