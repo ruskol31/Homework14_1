@@ -1,16 +1,23 @@
-class Product:
+from src.base_product import BaseProduct
+from src.printmixin import PrintMixin
+
+
+class Product(BaseProduct, PrintMixin):
     name: str
     description: str
     price: float
     quantity: int
     inventory: int
 
-    def __init__(self, name, description, price, quantity, inventory=0):
+    def __init__(self, name, description, price, quantity, inventory=0, **kwargs):
         self.name = name
         self.description = description
         self.__price = price
         self.quantity = quantity
         self.inventory = price * quantity
+        # super().__init__(**kwargs)
+        BaseProduct.__init__(self)
+        PrintMixin.__init__(self)
 
     def __str__(self):
         return (f"Название продукта {self.name}, {self.__price} руб. "
