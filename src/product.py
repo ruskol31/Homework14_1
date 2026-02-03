@@ -9,7 +9,7 @@ class Product(BaseProduct, PrintMixin):
     quantity: int
     inventory: int
 
-    def __init__(self, name, description, price, quantity, inventory=0, **kwargs):
+    def __init__(self, name, description, price, quantity, inventory=0):
         self.name = name
         self.description = description
         self.__price = price
