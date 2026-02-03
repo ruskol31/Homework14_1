@@ -13,3 +13,5 @@ class Smartphone(Product):
     def __add__(self, other):
 
         return self.inventory + other.inventory
+
+print(Smartphone.__mro__)
