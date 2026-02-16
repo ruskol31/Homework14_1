@@ -1,4 +1,8 @@
-class Product:
+from src.base_product import BaseProduct
+from src.printmixin import PrintMixin
+
+
+class Product(BaseProduct, PrintMixin):
     name: str
     description: str
     price: float
@@ -9,8 +13,14 @@ class Product:
         self.name = name
         self.description = description
         self.__price = price
-        self.quantity = quantity
+        if quantity > 0:
+            self.quantity = quantity
+        else:
+            raise ValueError("Товар с нулевым количеством не может быть добавлен")
         self.inventory = price * quantity
+        # super().__init__(**kwargs)
+        BaseProduct.__init__(self)
+        PrintMixin.__init__(self)
 
     def __str__(self):
         return (f"Название продукта {self.name}, {self.__price} руб. "

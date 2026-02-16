@@ -39,3 +39,22 @@ class Category:
 
         self.__products.append(product)
         Category.product_count += 1
+
+    def average_price(self):
+        """
+               Подсчитывает средний ценник всех товаров в категории.
+               Если в категории нет товаров, возвращает 0.
+               """
+        try:
+            if not self.__products or len(self.__products) == 0:
+                return 0
+
+            total_price = sum(product.price for product in self.__products)
+            average = total_price / len(self.__products)
+            return round(average, 2)
+
+        except ZeroDivisionError:
+            return 0
+        except Exception as e:
+            print(f"Ошибка при вычислении средней цены: {e}")
+            return 0
